@@ -11,12 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Project packaging: `Makefile` (install/uninstall/check), `README.md`, `config.conf.example`.
 - `BETTERFETCH_VERSION`, `--version` / `-V`, early-exit help `--help` / `-h` without writing config.
-- Tests (`tests/run.sh`) and optional `shellcheck` in `make check`.
+- `make check` : vérification syntaxe (`bash -n` sur `betterfetch.sh` et `install.sh`).
+- [`install.sh`](install.sh) : installation universelle (`curl` ou `wget`, `--prefix`, `--system`, `--branch`, `--dry-run`).
+- Cible `make install-user` ; README avec tableau distro / procédures multi-OS.
 
 ### Changed
 
 - Documentation and repository hygiene (`.gitignore`, `.shellcheckrc`).
-- README enrichi (sommaire, flux, publication GitHub), licence MIT (`LICENSE`), URL du dépôt dans `BETTERFETCH_HOMEPAGE`.
+- README (sommaire, flux, désinstallation), licence MIT (`LICENSE`), URL du dépôt dans `BETTERFETCH_HOMEPAGE`.
 
 ### Links
 

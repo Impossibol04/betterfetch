@@ -444,7 +444,7 @@ done
 max_lines=$(( ${#logo[@]} > ${#infos[@]} ? ${#logo[@]} : ${#infos[@]} ))
 spacer=$(printf '%*s' "$LOGO_INFO_GAP")
 blank_logo=$(printf '%*s' "$LOGO_WIDTH")
-for (( i=0; i<max_lines; i++ )); do
+    for (( i=0; i<max_lines; i++ )); do
     ll="${logo[$i]:-$blank_logo}"
     li="${infos[$i]:-}"
     if [ "${#logo[@]}" -gt 0 ]; then echo -e "${COLOR_LOGO}${ll}${COLOR_RESET}${spacer}${li}"; else echo -e "${li}"; fi
