@@ -161,4 +161,4 @@ Optionnel : [ShellCheck](https://www.shellcheck.net/) — `shellcheck betterfetc
 
 ---
 
-Auteur : [@Impossibol04](https://github.com/Impossibol04)
+> Développé avec passion ❤️ par [Impossibol](https://github.com/Impossibol04)
