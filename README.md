@@ -157,4 +157,4 @@ Ensuite, à chaque modification : `git add …`, `git commit`, `git push`. Crée
 
 ---
 
-> Développé avec ❤️ par [Impossibol](https://github.com/Impossibol04)
+> Développé avec passion ❤️ par [Impossibol](https://github.com/Impossibol04)
