@@ -157,6 +157,4 @@ Ensuite, à chaque modification : `git add …`, `git commit`, `git push`. Crée
 
 ---
 
-## Licence
-
-Voir [LICENSE](LICENSE) (MIT).
+> Développé avec ❤️ par [Impossibol](https://github.com/Impossibol04)
