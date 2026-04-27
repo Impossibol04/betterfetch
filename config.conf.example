@@ -1,0 +1,31 @@
+# BetterFetch — exemple de configuration
+# Copier vers ~/.config/betterfetch/config.conf et adapter.
+
+# --- Apparence / thème ---
+THEME="default"
+VISUAL_STYLE="modern"
+MODE="normal"
+DETAIL_LEVEL="dual_mode"
+USE_ICONS=1
+FORCE_ASCII=0
+
+# --- Logo ---
+LOGO_STYLE="tux"
+LOGO_FILE=""
+
+# --- Palette terminale ---
+PALETTE_STYLE="ansi8"
+PALETTE_SIZE="medium"
+SHOW_PALETTE=1
+
+# --- Barres et retours à la ligne ---
+BAR_LENGTH=12
+WRAP_LONG_VALUES=1
+
+# --- Modules : ordre ---
+# Si 1, MODULE_ORDER du fichier remplace l’ordre du niveau balanced/full/…
+USE_CONFIG_MODULE_ORDER=0
+MODULE_ORDER=("identity" "os" "host_info" "kernel" "uptime" "packages" "shell" "term" "display" "desktop" "wm" "theme" "icons" "font" "cursor" "cpu" "gpu" "mem" "swap" "disk" "disk_home" "network" "battery" "locale")
+
+# --- Détection paquets (premier disponible utilisé pour le compte) ---
+PKG_MANAGERS=("pacman" "dpkg" "rpm" "flatpak" "snap" "nix" "xbps" "apk")

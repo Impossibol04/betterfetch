@@ -1,0 +1,7 @@
+# Tests / jetables
+*.tmp
+*.log
+/tmp/
+
+# Cache BetterFetch en dev local (si jamais créé dans ce dossier)
+betterfetch_cache_*
