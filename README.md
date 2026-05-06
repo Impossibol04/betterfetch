@@ -4,6 +4,8 @@ Affichage d’informations système dans le terminal : logo ASCII, champs étiqu
 
 **Dépôt :** [github.com/Impossibol04/betterfetch](https://github.com/Impossibol04/betterfetch)
 
+## With the help of Claude AI !
+
 ## Sommaire
 
 - [Prérequis](#prérequis)
